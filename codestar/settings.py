@@ -35,7 +35,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-blog-swempa.herokuapp.com/',
+ALLOWED_HOSTS = ['django-blog-swempa.herokuapp.com/', 
+                 'django-blog-swempa.herokuapp.com',
                  '8000-sven-cork-django-blog-93j7f2apsr.us2.codeanyapp.com']
 
 
